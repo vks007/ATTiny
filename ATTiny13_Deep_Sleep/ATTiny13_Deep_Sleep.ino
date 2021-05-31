@@ -2,7 +2,7 @@
  * Source: https://forum.arduino.cc/t/solved-attiny13a-sleep-mode-high-current-consumption/431936/26
  * Uses the board Microcore from MCUDude : https://github.com/MCUdude/MicroCore or DIY ATTiny Board from 
  * This finally acheives a sleep current of 1.1uA. It could as well be 0.15 uA because I am measuring it with a DMM which is not very accurate for low currents
- * The difference here seems to be not using sleep_mode() , instead use statements as below
+ * The difference here seems to be not using sleep_mode() , instead use statements as below 
  */
 
 #include "avr/io.h"
